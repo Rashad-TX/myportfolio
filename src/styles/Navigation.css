@@ -1,0 +1,31 @@
+.main-nav-cntr{
+    background-color:lightsteelblue;
+}
+
+.logo-container{
+    padding-left: 1.5rem;
+   
+    }
+
+.myLogo{
+    width: 5rem;
+   }
+
+
+.link-item{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color:white !important;
+    padding-left: 1.5rem;
+}
+
+.link-item:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 0.4rem;
+}
+
+.native-icon{
+    width:0.5rem;
+    color: white;
+}

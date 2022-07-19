@@ -1,0 +1,68 @@
+ body {
+    width: 100%;
+ }
+
+
+.home{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+   
+    
+}
+.prof-pic{
+    width: 30rem;
+}
+
+.bio-text{
+    font-size:2rem;
+}
+
+.email{
+width:2rem;
+
+}
+
+.bio-icon{
+margin: 1rem;
+width: 2.5rem;
+}
+
+#skills{
+    background-color:lightsteelblue ;
+    padding-bottom: 3rem;
+
+
+}
+
+.skills-text{
+    font-size: 3rem;
+    text-align: center;
+    color: black;
+}
+
+.skills-card {
+    width: 75%;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    grid-gap:0.5rem;
+    row-gap: 1rem;
+    padding:1rem;
+     background-color: white;
+    color: gray;
+    box-shadow: 20px 10px;
+
+  }
+
+  .devicon{
+ font-size: 5rem;
+ margin: 1rem;
+  }
+
+
+.devicon:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,1); 
+}
+  
+
+
+ 

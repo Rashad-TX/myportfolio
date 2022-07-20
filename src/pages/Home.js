@@ -4,7 +4,8 @@ import "../styles/Home.css";
 import Email from "../assets/email.png";
 import Github from "../assets/github.svg";
 import LinkedIn from "../assets/linkedin.svg";
-
+import Api from "../assets/api.png";
+import Native from "../assets/native.png";
 
 
 function Home(){
@@ -45,7 +46,8 @@ function Home(){
 <div><i className="devicon-bash-plain devicon fluid"></i></div>
 <div><i className="devicon-figma-plain colored devicon fluid"></i></div>
 <div><i className="devicon-canva-original devicon fluid"></i></div>
-
+<div><img src={Native} alt="native-icon" class="native-icon"/></div>
+<div><img src={Api} alt="api-icon" class="api-icon"/></div>
 
 </div>
 </div>

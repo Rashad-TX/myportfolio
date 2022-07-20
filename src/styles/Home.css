@@ -62,7 +62,21 @@ width: 2.5rem;
 .devicon:hover {
   box-shadow: 0 0 11px rgba(33,33,33,1); 
 }
-  
+
+.native-icon{
+    width:6rem;
+}
+.native-icon:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,1); 
+}
+
+.api-icon{
+    width:6rem;
+    padding-top:0.8rem;
+}
+.api-icon:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,1);  
+}
 
 
  

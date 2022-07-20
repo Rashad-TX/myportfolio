@@ -1,0 +1,37 @@
+.project {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .project h1 {
+    margin-top: 50px;
+    color: black;
+    font-size: 35px;
+  }
+  .project img {
+    width: 700px;
+    border-radius: 10px;
+  }
+  
+  .project p {
+    font-size: 40px;
+    color: black;
+  }
+  
+ 
+
+  .project-links{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 50%;
+    color: lightsteelblue;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-decoration: underline;
+    cursor: pointer;
+      }

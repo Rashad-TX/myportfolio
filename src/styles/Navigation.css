@@ -17,15 +17,20 @@
     font-weight: bolder;
     color:white !important;
     padding-left: 1.5rem;
+    margin: 2rem;
 }
 
 .link-item:hover{
     text-decoration: underline;
     text-decoration-color: white;
-    text-decoration-thickness: 0.4rem;
+    text-decoration-thickness: 0.2rem;
 }
 
 .native-icon{
     width:0.5rem;
     color: white;
+}
+
+.menu-icon{
+    width: 2rem;
 }

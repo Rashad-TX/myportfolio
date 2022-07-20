@@ -30,14 +30,16 @@ width: 2.5rem;
 #skills{
     background-color:lightsteelblue ;
     padding-bottom: 3rem;
+    padding-top: 1.5rem;
 
 
 }
 
 .skills-text{
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
     color: black;
+    
 }
 
 .skills-card {
@@ -79,4 +81,16 @@ width: 2.5rem;
 }
 
 
- 
+ @media (max-width: 900px){
+
+    .skills-card {
+        width: 75%;
+               grid-template-columns: repeat(auto-fit,minmax(100px, 1fr));
+                }
+ }
+
+ @media (max-width: 450px){
+    .prof-pic{
+        width: 20rem;
+    }
+ }

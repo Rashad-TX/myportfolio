@@ -1,6 +1,5 @@
 .project {
     width: 100%;
-    height: calc(100vh - 100px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,17 +7,17 @@
   }
   
   .project h1 {
-    margin-top: 50px;
+    margin-top: 3rem;
     color: black;
-    font-size: 35px;
+    font-size: 2.5rem;
   }
   .project img {
-    width: 700px;
+    width: 43rem;
     border-radius: 10px;
   }
   
   .project p {
-    font-size: 40px;
+    font-size: 1.5rem;
     color: black;
   }
   
@@ -32,6 +31,46 @@
     color: lightsteelblue;
     font-size: 2rem;
     font-weight: bolder;
-    text-decoration: underline;
-    cursor: pointer;
+       cursor: pointer;
+      }
+
+
+      @media (max-width: 600px){
+
+             
+        .project h1 {
+        font-size: 2rem;
+        }
+        .project img {
+          width: 31rem;
+          border-radius: 10px;
+        }
+        
+        .project p {
+          font-size: 2rem;
+          color: black;
+        }
+        
+      }
+
+      @media (max-width: 450px){
+
+             
+        .project h1 {
+        font-size: 1.5rem;
+        }
+        .project img {
+          width: 21rem;
+          border-radius: 10px;
+        }
+        
+        .project p {
+          font-size: 1rem;
+          color: black;
+        }
+
+        .project-links{
+          font-size: 1rem;
+        }
+        
       }

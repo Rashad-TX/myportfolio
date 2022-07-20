@@ -17,14 +17,14 @@ function Home(){
         <div className="col" align="center">
 <img src={ProfPic} alt="profile-pic" className="prof-pic"/>
 <p className="bio-text">Full Stack Software Engineer With A Passion For Front-End Web Development.</p>
-      <div><img src={LinkedIn} className="bio-icon"/><img src={Email} className="bio-icon email"/><img src={Github} className="bio-icon"/></div>
+      <div> <a href="mailto:rashad@rashadmoore.dev" target="_blank" rel="noopener noreferrer"><img src={Email} className="bio-icon email" alt="icon"/></a><a href="https://github.com/Rashad-TX?tab=repositories" target="_blank"><img src={Github} alt="icon" className="bio-icon github"/> </a></div>
         </div>
     </div>
 </div>
 
 <div id="skills" className="skills container-fluid">
 <div>
-<p className ="skills-text">SKILLS:</p>
+<h1 className ="skills-text">SKILLS:</h1>
 </div>
 
 <div className="skills-card mx-auto">
@@ -46,8 +46,8 @@ function Home(){
 <div><i className="devicon-bash-plain devicon fluid"></i></div>
 <div><i className="devicon-figma-plain colored devicon fluid"></i></div>
 <div><i className="devicon-canva-original devicon fluid"></i></div>
-<div><img src={Native} alt="native-icon" class="native-icon"/></div>
-<div><img src={Api} alt="api-icon" class="api-icon"/></div>
+<div><img src={Native} alt="native-icon" className="native-icon"/></div>
+<div><img src={Api} alt="api-icon" className="api-icon"/></div>
 
 </div>
 </div>

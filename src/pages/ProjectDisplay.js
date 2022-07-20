@@ -21,7 +21,7 @@ function ProjectDisplay() {
       <a href={project.website} target="_blank" rel="noopener noreferrer" className="proj-link">Live</a>
       </div>
       <div>
-      <a href={project.repository}  target="_blank" rel="noopener noreferrer"className="proj-link">Repository</a>
+      <a href={project.repository}  target="_blank" rel="noopener noreferrer" className="proj-link">Repository</a>
       </div>
       </div>
       

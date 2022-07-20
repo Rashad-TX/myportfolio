@@ -24,11 +24,11 @@ function Navigation() {
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="nav-links m-auto sticky-top" >
+          <Nav className="nav-links m-auto" >
             <Link to="/" className="link-item"><img src={Home} alt="home-icon" className="menu-icon"/>Home</Link>
             <NavHashLink to="/#skills" className="link-item"><img src={Skills} alt="skills-icon" className="menu-icon"/> Skills</NavHashLink>
             <NavHashLink to="/#projects" className="link-item"><img src={Folder} alt="folder-icon" className="menu-icon"/> Projects</NavHashLink>
-            <Link to="#contact" className="link-item"><img src={Phone} alt="phone-icon" className="menu-icon"/>Contact</Link>
+            
           </Nav>
         </Navbar.Collapse>
       </Container>

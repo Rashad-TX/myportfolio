@@ -1,13 +1,13 @@
 .footer {
     width: 100%;
-    height: 200px;
+    height: 10rem;
     background: lightsteelblue;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 10px;
-    margin-top: 200px;
+    padding-top: 2rem;
+    margin-top: 4rem;
   }
   
   
@@ -16,8 +16,3 @@
     color: black;
   }
   
-  @media only screen and (max-width: 600px) {
-    .footer svg {
-      font-size: 50px;
-    }
-  }

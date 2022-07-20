@@ -7,12 +7,12 @@ import "../styles/Projects.css";
 function Projects() {
   return (
     <div className="projects" id="projects">
-      <h1>Projects</h1>
+      <h1 className="projects-text">PROJECTS:</h1>
       <div className="projectList">
         
         {ProjectList.map((project, idx) => {
           return (
-            <ProjectItem id={idx} name={project.name} image={project.image} />
+            <ProjectItem key={idx} id={idx} name={project.name} image={project.image} />
           );
         })}
       </div>

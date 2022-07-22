@@ -7,7 +7,6 @@ import Logo from "../assets/RM.png";
 import Home from "../assets/home.svg";
 import Folder from "../assets/folder.svg";
 import Skills from "../assets/skills.svg";
-import Phone from "../assets/phone.svg";
 import {Link} from "react-router-dom"
 import { NavHashLink } from 'react-router-hash-link';
 
@@ -17,8 +16,8 @@ import { NavHashLink } from 'react-router-hash-link';
 function Navigation() {
   return (
     <div className="main-nav-cntr">
-    <div className="logo-container">
-      <img src={Logo} alt="logo" className="myLogo"/>
+      <div className="logo-container">
+        <img src={Logo} alt="logo" className="myLogo"/>
       </div>
     <Navbar expand="lg">
       <Container>
@@ -28,7 +27,7 @@ function Navigation() {
             <Link to="/" className="link-item"><img src={Home} alt="home-icon" className="menu-icon"/>Home</Link>
             <NavHashLink to="/#skills" className="link-item"><img src={Skills} alt="skills-icon" className="menu-icon"/> Skills</NavHashLink>
             <NavHashLink to="/#projects" className="link-item"><img src={Folder} alt="folder-icon" className="menu-icon"/> Projects</NavHashLink>
-            
+
           </Nav>
         </Navbar.Collapse>
       </Container>

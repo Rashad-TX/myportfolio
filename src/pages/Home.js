@@ -3,7 +3,6 @@ import ProfPic from "../assets/profpic.png";
 import "../styles/Home.css";
 import Email from "../assets/email.png";
 import Github from "../assets/github.svg";
-import LinkedIn from "../assets/linkedin.svg";
 import Api from "../assets/api.png";
 import Native from "../assets/native.png";
 

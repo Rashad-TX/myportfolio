@@ -2,7 +2,7 @@ import Proj1 from "../assets/warriors1.jpg";
 import Proj2 from "../assets/mods1.jpg";
 import Proj3 from "../assets/sprouts1.jpg";
 import Proj4 from "../assets/memgame2.jpg";
-
+import Proj5 from "../assets/timeflies1.jpg"
 
 export const ProjectList = [
   {
@@ -32,6 +32,13 @@ export const ProjectList = [
     skills: "Javascript, HTML, CSS",
     website: "https://gswmemory.netlify.app/",
     repository: "https://github.com/Rashad-TX/warriors_Memory_Game"
+  },
+  {
+    name: "Vanilla Javascript Time Tracking App",
+    image: Proj5,
+    skills: "Javascript, HTML, CSS",
+    website: "https://mydaytracker.netlify.app/",
+    repository: "https://github.com/Rashad-TX/time_flies"
   }
 
 ];

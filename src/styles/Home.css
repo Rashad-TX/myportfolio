@@ -85,12 +85,12 @@ width: 2.5rem;
 
     .skills-card {
         width: 75%;
-               grid-template-columns: repeat(auto-fit,minmax(100px, 1fr));
+        grid-template-columns: repeat(auto-fit,minmax(100px, 1fr));
                 }
  }
 
  @media (max-width: 450px){
     .prof-pic{
-        width: 20rem;
+    width: 20rem;
     }
  }

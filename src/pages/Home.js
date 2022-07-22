@@ -16,7 +16,7 @@ function Home(){
         <div className="col" align="center">
 <img src={ProfPic} alt="profile-pic" className="prof-pic"/>
 <p className="bio-text">Full Stack Software Engineer With A Passion For Front-End Web Development.</p>
-      <div> <a href="mailto:rashad@rashadmoore.dev" target="_blank" rel="noopener noreferrer"><img src={Email} className="bio-icon email" alt="icon"/></a><a href="https://github.com/Rashad-TX?tab=repositories" target="_blank"><img src={Github} alt="icon" className="bio-icon github"/> </a></div>
+      <div> <a href="mailto:rashad@rashadmoore.dev" target="_blank" rel="noreferrer"><img src={Email} className="bio-icon email" alt="icon"/></a><a href="https://github.com/Rashad-TX?tab=repositories" target="_blank"><img src={Github} alt="icon" className="bio-icon github"/> </a></div>
         </div>
     </div>
 </div>

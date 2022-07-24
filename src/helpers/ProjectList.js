@@ -15,28 +15,28 @@ export const ProjectList = [
   {
     name: "Bootstrap Landing Page",
     image: Proj2,
-    skills: "Bootstrap,Javascript,HTML,CSS",
+    skills: "Bootstrap,JavaScript,HTML,CSS",
     website: "https://modderz.netlify.app/",
     repository: "https://github.com/Rashad-TX/modderz"
   },
   {
-    name: "API Website",
+    name: "Website w/API",
     image: Proj3,
-    skills: "Javascript,API,HTML,CSS",
+    skills: "JavaScript,API,HTML,CSS",
     website: "https://sproutsbar.netlify.app/",
     repository: "https://github.com/Rashad-TX/sprouts_clone"
   },
   {
-    name: "Vanilla Javascript Game",
+    name: "Vanilla JavaScript Game",
     image: Proj4,
-    skills: "Javascript, HTML, CSS",
+    skills: "JavaScript, HTML, CSS",
     website: "https://gswmemory.netlify.app/",
     repository: "https://github.com/Rashad-TX/warriors_Memory_Game"
   },
   {
-    name: "Vanilla Javascript Time Tracking App",
+    name: "JS Time Tracking App",
     image: Proj5,
-    skills: "Javascript, HTML, CSS",
+    skills: "JavaScript, HTML, CSS",
     website: "https://mydaytracker.netlify.app/",
     repository: "https://github.com/Rashad-TX/time_flies"
   }

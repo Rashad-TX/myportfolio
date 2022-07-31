@@ -2,7 +2,8 @@ import Proj1 from "../assets/warriors1.jpg";
 import Proj2 from "../assets/mods1.jpg";
 import Proj3 from "../assets/sprouts1.jpg";
 import Proj4 from "../assets/memgame2.jpg";
-import Proj5 from "../assets/timeflies1.jpg"
+import Proj5 from "../assets/timeflies1.jpg";
+import Proj6 from "../assets/quiz.png";
 
 export const ProjectList = [
   {
@@ -39,6 +40,13 @@ export const ProjectList = [
     skills: "JavaScript, HTML, CSS",
     website: "https://mydaytracker.netlify.app/",
     repository: "https://github.com/Rashad-TX/time_flies"
+  },
+  {
+    name: "React Quiz w/ Chart.js",
+    image: Proj6,
+    skills: "React, Chart.js, JavaScript, HTML, CSS",
+    website: "https://jscriptquiz.netlify.app/",
+    repository: "https://github.com/Rashad-TX/arrayQuiz"
   }
 
 ];

@@ -4,6 +4,7 @@ import Proj3 from "../assets/sprouts1.jpg";
 import Proj4 from "../assets/memgame2.jpg";
 import Proj5 from "../assets/timeflies1.jpg";
 import Proj6 from "../assets/quiz.png";
+import Proj7  from "../assets/stock.jpg"
 
 export const ProjectList = [
   {
@@ -47,6 +48,13 @@ export const ProjectList = [
     skills: "React, Chart.js, JavaScript, HTML, CSS",
     website: "https://jscriptquiz.netlify.app/",
     repository: "https://github.com/Rashad-TX/arrayQuiz"
+  },
+  {
+    name: "Stock Dashboard w/Axios API",
+    image: Proj7,
+    skills: "React, Axios API, Chart.js, JavaScript, HTML, CSS",
+    website: "https://apistockdashboard.netlify.app",
+    repository: "https://github.com/Rashad-TX/stock_dashboard"
   }
 
 ];

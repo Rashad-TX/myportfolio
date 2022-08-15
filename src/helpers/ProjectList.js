@@ -1,9 +1,9 @@
 import Proj1 from "../assets/warriors1.jpg";
 import Proj2 from "../assets/mods1.jpg";
-import Proj4 from "../assets/memgame2.jpg";
-import Proj5 from "../assets/timeflies1.jpg";
-import Proj6 from "../assets/quiz.png";
-import Proj7  from "../assets/stock.jpg"
+import Proj3 from "../assets/memgame2.jpg";
+import Proj4 from "../assets/timeflies1.jpg";
+import Proj5 from "../assets/quiz.png";
+import Proj6  from "../assets/stock.jpg"
 
 export const ProjectList = [
   {
@@ -22,28 +22,28 @@ export const ProjectList = [
   },
   {
     name: "Vanilla JavaScript Game",
-    image: Proj4,
+    image: Proj3,
     skills: "JavaScript, HTML, CSS",
     website: "https://gswmemory.netlify.app/",
     repository: "https://github.com/Rashad-TX/warriors_Memory_Game"
   },
   {
     name: "JS Time Tracking App",
-    image: Proj5,
+    image: Proj4,
     skills: "JavaScript, HTML, CSS",
     website: "https://mydaytracker.netlify.app/",
     repository: "https://github.com/Rashad-TX/time_flies"
   },
   {
     name: "React Quiz w/ Chart.js",
-    image: Proj6,
+    image: Proj5,
     skills: "React, Chart.js, JavaScript, HTML, CSS",
     website: "https://jscriptquiz.netlify.app/",
     repository: "https://github.com/Rashad-TX/arrayQuiz"
   },
   {
     name: "Stock Dashboard w/Axios API",
-    image: Proj7,
+    image: Proj6,
     skills: "React, Axios API, Chart.js, JavaScript, HTML, CSS",
     website: "https://apistockdashboard.netlify.app",
     repository: "https://github.com/Rashad-TX/stock_dashboard"

@@ -1,6 +1,6 @@
 import Proj1 from "../assets/warriors1.jpg";
 import Proj2 from "../assets/mods1.jpg";
-import Proj3 from "../assets/memgame2.jpg";
+import Proj3 from "../assets/reproj.png";
 import Proj4 from "../assets/timeflies1.jpg";
 import Proj5 from "../assets/quiz.png";
 import Proj6  from "../assets/stock.jpg"
@@ -21,11 +21,11 @@ export const ProjectList = [
     repository: "https://github.com/Rashad-TX/modderz"
   },
   {
-    name: "Vanilla JavaScript Game",
+    name: "React Real Estate Website",
     image: Proj3,
-    skills: "JavaScript, HTML, CSS",
-    website: "https://gswmemory.netlify.app/",
-    repository: "https://github.com/Rashad-TX/warriors_Memory_Game"
+    skills: "React, JavaScript, HTML, CSS, API,MAPTILER",
+    website: "https://themooregroup.netlify.app/",
+    repository: "https://github.com/Rashad-TX/sd_realestate"
   },
   {
     name: "JS Time Tracking App",
